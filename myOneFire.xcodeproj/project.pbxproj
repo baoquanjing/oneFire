@@ -16,6 +16,7 @@
 		C87423DF1B1D45F000061030 /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C87423D41B1D45F000061030 /* MMProgressHUDWindow.m */; };
 		C87423E01B1D45F000061030 /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87423D61B1D45F000061030 /* MMRadialProgressView.m */; };
 		C87423E11B1D45F000061030 /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C87423D81B1D45F000061030 /* MMVectorImage.m */; };
+		C87423E41B1D499200061030 /* Download.m in Sources */ = {isa = PBXBuildFile; fileRef = C87423E31B1D499200061030 /* Download.m */; };
 		C888E63F1B18393C00ABA79B /* CustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C888E63E1B18393C00ABA79B /* CustomCollectionCell.xib */; };
 		C8D447061B12C2B900DF4C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D447051B12C2B900DF4C53 /* main.m */; };
 		C8D447091B12C2B900DF4C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D447081B12C2B900DF4C53 /* AppDelegate.m */; };
@@ -60,6 +61,8 @@
 		C87423D61B1D45F000061030 /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
 		C87423D71B1D45F000061030 /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
 		C87423D81B1D45F000061030 /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		C87423E21B1D499200061030 /* Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Download.h; sourceTree = "<group>"; };
+		C87423E31B1D499200061030 /* Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Download.m; sourceTree = "<group>"; };
 		C888E63E1B18393C00ABA79B /* CustomCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionCell.xib; sourceTree = "<group>"; };
 		C8D447001B12C2B900DF4C53 /* myOneFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myOneFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D447041B12C2B900DF4C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -165,6 +168,8 @@
 				C8D4470B1B12C2B900DF4C53 /* ViewController.m */,
 				C8D447321B132E5F00DF4C53 /* MainViewController.h */,
 				C8D447331B132E5F00DF4C53 /* MainViewController.m */,
+				C87423E21B1D499200061030 /* Download.h */,
+				C87423E31B1D499200061030 /* Download.m */,
 				C8D447291B132DAA00DF4C53 /* DownloadManager.h */,
 				C8D4472A1B132DAA00DF4C53 /* DownloadManager.m */,
 				C8D4473B1B1416E300DF4C53 /* shareManagerInstance.h */,
@@ -345,6 +350,7 @@
 				C87423E11B1D45F000061030 /* MMVectorImage.m in Sources */,
 				C8D4473D1B1416E300DF4C53 /* shareManagerInstance.m in Sources */,
 				C8D447311B132E1C00DF4C53 /* MyModel.m in Sources */,
+				C87423E41B1D499200061030 /* Download.m in Sources */,
 				C87423DB1B1D45F000061030 /* MMProgressHUD+Class.m in Sources */,
 				C87423DF1B1D45F000061030 /* MMProgressHUDWindow.m in Sources */,
 				C8D447341B132E5F00DF4C53 /* MainViewController.m in Sources */,

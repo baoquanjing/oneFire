@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Download : NSObject
+@property (copy, nonatomic) NSString * downloadStr;
+
 
 @end

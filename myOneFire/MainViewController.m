@@ -36,16 +36,17 @@
 -(void)butttonClicked:(UIButton *)but
 {
 //    [self createLocalNotification];
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(changeFrame:) userInfo:nil repeats:YES];
+//    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(changeFrame:) userInfo:nil repeats:YES];
+    NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:5 invocation:nil repeats:NO];
     [timer setFireDate:[NSDate date]];
+    
 }
 -(void)changeFrame:(NSTimer *)timer
 {
-    
+//    [timer setFireDate:[NSDate date]];
     _baseView.frame = CGRectMake(20, 200, 20, 20);
     _baseView.backgroundColor = [UIColor redColor];
     [timer invalidate];
-
 }
 -(void)createLocalNotification
 {
